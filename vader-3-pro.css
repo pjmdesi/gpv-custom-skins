@@ -1,0 +1,7 @@
+:root{
+  --key-color: #d81cff;
+}
+
+body {
+  background: var(--key-color);
+}
