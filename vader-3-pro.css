@@ -3,5 +3,5 @@
 }
 
 body {
-  background: var(--key-color);
+  background: var(--key-color) !important;
 }
