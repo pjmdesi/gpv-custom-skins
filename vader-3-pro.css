@@ -1,5 +1,7 @@
 :root{
   --key-color: #d81cff;
+
+  --d-pad-rotate-angle: 15deg;
 }
 
 body {
@@ -7,7 +9,8 @@ body {
 }
 
 .controller.active {
-  background: center / 750px auto url(https://pjmdesi.github.io/gpv-custom-skins/controller-base.png) no-repeat;
+  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/Body-no--pad.png) no-repeat;
+  perspective: 2000px;
 }
 
 .xbox .sticks {
@@ -16,10 +19,80 @@ body {
 }
 
 .xbox .stick.left {
-  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/Analog-L.png);
+  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/Analog-L.png) no-repeat;
 }
 
 .xbox .stick.right {
-  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/Analog-R.png);
+  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/Analog-R.png) no-repeat;
   top: 119px;
+}
+
+.xbox .arrows {
+  position: absolute;
+  width: 229px;
+  top: 130px;
+  left: 260px;
+}
+
+.xbox .arrows .button-select,
+.xbox .arrows .button-start {
+  width: 49px;
+  height: 45px;
+  opacity: 1;
+}
+
+.xbox .abxy {
+  width: 158px;
+  top: 122px;
+  left: 485px;
+}
+
+.xbox .button {
+  
+}
+
+.xbox .dpad {
+  width: 128px;
+  height: 128px;
+  top: 260px;
+  left: 210px;
+
+  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/D-Pad.png) no-repeat;
+}
+
+.xbox .dpad>span {
+  display: none;
+}
+
+/* rotate3d(x, y, z, a) */
+.xbox .dpad:has(.up.pressed) {
+  transform: rotate3d(1, 0, 0, var(--d-pad-rotate-angle);
+}
+
+.xbox .dpad:has(.up.pressed~.left.pressed) {
+  transform: rotate3d(1, 1, 0, var(--d-pad-rotate-angle);
+}
+
+.xbox .dpad:has(.left.pressed) {
+  transform: rotate3d(0, 1, 0, var(--d-pad-rotate-angle);
+}
+
+.xbox .dpad:has(down.pressed~.left.pressed) {
+  transform: rotate3d(-1, 1, 0, var(--d-pad-rotate-angle);
+}
+
+.xbox .dpad:has(.down.pressed) {
+  transform: rotate3d(-1, 0, 0, var(--d-pad-rotate-angle);
+}
+
+.xbox .dpad:has(.down.pressed~.right.pressed) {
+  transform: rotate3d(-1, -1, 0, var(--d-pad-rotate-angle);
+}
+
+.xbox .dpad:has(.right.pressed) {
+  transform: rotate3d(0, -1, 0, var(--d-pad-rotate-angle);
+}
+
+.xbox .dpad:has(.up.pressed~.right.pressed) {
+  transform: rotate3d(1, -1, 0, var(--d-pad-rotate-angle);
 }
