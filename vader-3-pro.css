@@ -1,7 +1,7 @@
 :root{
   --key-color: #d81cff;
 
-  --d-pad-rotate-angle: 15deg;
+  --d-pad-rotate-angle: 30deg;
 }
 
 body {
@@ -70,15 +70,15 @@ body {
 }
 
 .xbox .dpad:has(.up.pressed~.left.pressed) {
-  transform: rotate3d(1, 1, 0, var(--d-pad-rotate-angle));
+  transform: rotate3d(1, -1, 0, var(--d-pad-rotate-angle));
 }
 
 .xbox .dpad:has(.left.pressed) {
-  transform: rotate3d(0, 1, 0, var(--d-pad-rotate-angle));
+  transform: rotate3d(0, -1, 0, var(--d-pad-rotate-angle));
 }
 
 .xbox .dpad:has(down.pressed~.left.pressed) {
-  transform: rotate3d(-1, 1, 0, var(--d-pad-rotate-angle));
+  transform: rotate3d(-1, -1, 0, var(--d-pad-rotate-angle));
 }
 
 .xbox .dpad:has(.down.pressed) {
@@ -86,13 +86,13 @@ body {
 }
 
 .xbox .dpad:has(.down.pressed~.right.pressed) {
-  transform: rotate3d(-1, -1, 0, var(--d-pad-rotate-angle));
+  transform: rotate3d(-1, 1, 0, var(--d-pad-rotate-angle));
 }
 
 .xbox .dpad:has(.right.pressed) {
-  transform: rotate3d(0, -1, 0, var(--d-pad-rotate-angle));
+  transform: rotate3d(0, 1, 0, var(--d-pad-rotate-angle));
 }
 
 .xbox .dpad:has(.up.pressed~.right.pressed) {
-  transform: rotate3d(1, -1, 0, var(--d-pad-rotate-angle));
+  transform: rotate3d(1, 1, 0, var(--d-pad-rotate-angle));
 }
