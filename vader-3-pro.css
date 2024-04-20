@@ -97,6 +97,13 @@ body {
   left: 486px;
 }
 
+.xbox .abxy.button {
+  width: 55px;
+  height: 55px;
+
+  transition: margin .1s ease-in-out;
+}
+
 .xbox .button.a {
   background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/A.png) no-repeat;
 }
@@ -131,11 +138,6 @@ body {
 .xbox .button.y.pressed {
   margin-top: 2px;
   background-image: url(https://pjmdesi.github.io/gpv-custom-skins/Y-active.png);
-}
-
-.xbox .button {
-  width: 55px;
-  height: 55px;
 }
 
 .xbox .dpad {
@@ -182,4 +184,19 @@ body {
 
 .xbox .dpad:has(.up.pressed~.right.pressed) {
   transform: translate3d(var(--d-pad-translate), calc( -1 * var(--d-pad-translate) ), -2px ) rotate3d(1, 1, 0, var(--d-pad-rotate-angle));
+}
+
+.xbox .triggers {
+  width: 770px;
+  left: -10px;
+  top: 55px;
+}
+
+.xbox .trigger {
+  height: 95px;
+  
+}
+
+.xbox .bumpers {
+  top: 55px;
 }
