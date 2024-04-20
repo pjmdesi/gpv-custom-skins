@@ -9,7 +9,7 @@ body {
 }
 
 .controller.active {
-  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/Body-no--pad.png) no-repeat;
+  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/Body-no-d-pad.png) no-repeat;
   perspective: 2000px;
 }
 
