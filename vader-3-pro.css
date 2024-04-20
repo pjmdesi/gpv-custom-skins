@@ -7,5 +7,5 @@ body {
 }
 
 .controller.active {
-  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/controller-base.png);
+  background: center / 750px auto url(https://pjmdesi.github.io/gpv-custom-skins/controller-base.png);
 }
