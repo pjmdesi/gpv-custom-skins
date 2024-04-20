@@ -39,6 +39,10 @@ body {
   left: 138px;
 }
 
+.xbox .stick {
+  filter: drop-shadow(0 0 8px black);
+}
+
 .xbox .stick.left {
   background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/Analog-L.png) no-repeat;
 }
@@ -49,11 +53,19 @@ body {
   left: 290px;
 }
 
+.xbox .stick.left.pressed {
+  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/Analog-L-active.png);
+}
+
+.xbox .stick.right.pressed {
+  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/Analog-R-active.png);
+}
+
 .xbox .arrows {
   position: absolute;
-  width: 229px;
-  top: 130px;
-  left: 260px;
+  width: 232px;
+  top: 127px;
+  left: 258px;
 }
 
 .xbox .arrows .back,
@@ -80,8 +92,8 @@ body {
 }
 
 .xbox .abxy {
-  width: 162px;
-  top: 119px;
+  width: 161px;
+  top: 116px;
   left: 486px;
 }
 
@@ -131,6 +143,8 @@ body {
   height: 128px;
   top: 260px;
   left: 210px;
+
+  filter: drop-shadow(0 0 8px black);
 
   transition: transform .1s ease-in-out;
 
