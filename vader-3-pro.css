@@ -5,3 +5,7 @@
 body {
   background: var(--key-color) !important;
 }
+
+.controller.active {
+  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/controller-base.png);
+}
