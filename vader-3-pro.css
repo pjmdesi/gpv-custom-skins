@@ -1,9 +1,9 @@
 :root{
   --key-color: #d81cff;
 
-  --d-pad-rotate-angle: 20deg;
+  --d-pad-rotate-angle: 17deg;
 
-  --d-pad-translate: 13px;
+  --d-pad-translate: 10px;
 }
 
 .xbox .quadrant,
