@@ -6,6 +6,11 @@
   --d-pad-translate: 13px;
 }
 
+.xbox .quadrant,
+.xbox .dpad>span {
+  display: none;
+}
+
 body {
   background: var(--key-color) !important;
 }
@@ -13,6 +18,20 @@ body {
 .controller.active {
   background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/Body-no-d-pad.png) no-repeat;
   perspective: 2000px;
+}
+
+.xbox .meta {
+  position: absolute;
+  height: 16px;
+  width: 47px;
+  top: 395px;
+  left: 377px;
+
+  background: center / 100% autp url(https://pjmdesi.github.io/gpv-custom-skins/home.png) no-repeat;
+}
+
+.xbox .meta.pressed {
+  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/home-active.png);
 }
 
 .xbox .sticks {
@@ -37,11 +56,27 @@ body {
   left: 260px;
 }
 
-.xbox .arrows .button-select,
-.xbox .arrows .button-start {
+.xbox .arrows .back,
+.xbox .arrows .start {
   width: 49px;
   height: 45px;
   opacity: 1;
+}
+
+.xbox .arrows .back {
+  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/SELECT.png) no-repeat;
+}
+
+.xbox .arrows .start {
+  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/START.png) no-repeat;
+}
+
+.xbox .arrows .back.pressed {
+  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/SELECT-active.png);
+}
+
+.xbox .arrows .start.pressed {
+  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/START-active.png);
 }
 
 .xbox .abxy {
@@ -100,10 +135,6 @@ body {
   transition: transform .1s ease-in-out;
 
   background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/D-Pad.png) no-repeat;
-}
-
-.xbox .dpad>span {
-  display: none;
 }
 
 /* rotate3d(x, y, z, a) */
