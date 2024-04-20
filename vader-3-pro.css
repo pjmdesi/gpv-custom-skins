@@ -16,8 +16,8 @@ body {
 }
 
 .xbox .sticks {
-  top: 161px;
-  left: 139px;
+  top: 158px;
+  left: 138px;
 }
 
 .xbox .stick.left {
@@ -26,7 +26,8 @@ body {
 
 .xbox .stick.right {
   background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/Analog-R.png) no-repeat;
-  top: 119px;
+  top: 121px;
+  left: 290px;
 }
 
 .xbox .arrows {
@@ -44,9 +45,9 @@ body {
 }
 
 .xbox .abxy {
-  width: 160px;
-  top: 122px;
-  left: 485px;
+  width: 162px;
+  top: 119px;
+  left: 486px;
 }
 
 .xbox .button.a {
@@ -66,24 +67,28 @@ body {
 }
 
 .xbox .button.a.pressed {
-  background: url(https://pjmdesi.github.io/gpv-custom-skins/A-active.png);
+  margin-top: 2px;
+  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/A-active.png);
 }
 
 .xbox .button.b.pressed {
-  background: url(https://pjmdesi.github.io/gpv-custom-skins/B-active.png);
+  margin-top: 2px;
+  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/B-active.png);
 }
 
 .xbox .button.x.pressed {
-  background: url(https://pjmdesi.github.io/gpv-custom-skins/X-active.png);
+  margin-top: 2px;
+  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/X-active.png);
 }
 
 .xbox .button.y.pressed {
-  background: url(https://pjmdesi.github.io/gpv-custom-skins/Y-active.png);
+  margin-top: 2px;
+  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/Y-active.png);
 }
 
 .xbox .button {
-  width: 51px;
-  height: 51px;
+  width: 55px;
+  height: 55px;
 }
 
 .xbox .dpad {
@@ -92,7 +97,7 @@ body {
   top: 260px;
   left: 210px;
 
-  transition: transform .2s ease-in-out;
+  transition: transform .1s ease-in-out;
 
   background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/D-Pad.png) no-repeat;
 }
