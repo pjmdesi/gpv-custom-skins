@@ -180,7 +180,7 @@ body {
   --dpad-transform: translate3d(calc( -1 * var(--d-pad-translate) ), calc( -1 * var(--d-pad-translate) ), -2px ) rotate3d(1, -1, 0, var(--d-pad-rotate-angle));
 }
 
-.xbox .dpad:has(down.pressed~.left.pressed) {
+.xbox .dpad:has(.down.pressed~.left.pressed) {
   --dpad-transform: translate3d(calc( -1 * var(--d-pad-translate) ), var(--d-pad-translate), -2px ) rotate3d(-1, -1, 0, var(--d-pad-rotate-angle));
 }
 
