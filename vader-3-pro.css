@@ -149,10 +149,10 @@ body {
 
   filter: drop-shadow(0 0 8px black);
 
-  transform: --dpad-transform;
-  -webkit-transform: --dpad-transform;
-   -moz-transform: --dpad-transform;
-   -o-transform: --dpad-transform; 
+  transform: var(--dpad-transform);
+  -webkit-transform: var(--dpad-transform);
+   -moz-transform: var(--dpad-transform);
+   -o-transform: var(--dpad-transform); 
 
   transition: transform .1s ease-in-out;
 
