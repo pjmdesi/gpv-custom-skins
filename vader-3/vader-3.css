@@ -22,9 +22,9 @@ body {
 
 .xbox .meta {
   position: absolute;
-  height: 16px;
-  width: 47px;
-  top: 395px;
+  height: 17px;
+  width: 45px;
+  top: 393px;
   left: 377px;
 
   background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-3/home.png) no-repeat;
@@ -63,15 +63,20 @@ body {
 
 .xbox .arrows {
   position: absolute;
-  width: 232px;
-  top: 127px;
-  left: 258px;
+  width: 230px;
+  top: 130px;
+  left: 259px;
 }
 
-.xbox .arrows .back,
+.xbox .arrows .back {
+  width: 51px;
+  height: 47px;
+  opacity: 1;
+}
+
 .xbox .arrows .start {
-  width: 49px;
-  height: 45px;
+  width: 50px;
+  height: 47px;
   opacity: 1;
 }
 
@@ -156,7 +161,7 @@ body {
 
   transition: transform .1s ease-in-out;
 
-  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/D-Pad.png) no-repeat;
+  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-3/D-Pad.png) no-repeat;
 }
 
 /* rotate3d(x, y, z, a) */
