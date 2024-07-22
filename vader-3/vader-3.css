@@ -1,0 +1,208 @@
+:root{
+  --key-color: #d81cff;
+
+  --d-pad-rotate-angle: 17deg;
+
+  --d-pad-translate: 10px;
+}
+
+.xbox .quadrant,
+.xbox .dpad>span {
+  display: none;
+}
+
+body {
+  background: var(--key-color) !important;
+}
+
+.controller.active {
+  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/Body-no-d-pad.png) no-repeat;
+  perspective: 2000px;
+}
+
+.xbox .meta {
+  position: absolute;
+  height: 16px;
+  width: 47px;
+  top: 395px;
+  left: 377px;
+
+  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/home.png) no-repeat;
+}
+
+.xbox .meta.pressed {
+  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/home-active.png);
+}
+
+.xbox .sticks {
+  top: 158px;
+  left: 138px;
+}
+
+.xbox .stick {
+  filter: drop-shadow(0 0 8px black);
+}
+
+.xbox .stick.left {
+  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/Analog-L.png) no-repeat;
+}
+
+.xbox .stick.right {
+  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/Analog-R.png) no-repeat;
+  top: 121px;
+  left: 290px;
+}
+
+.xbox .stick.left.pressed {
+  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/Analog-L-active.png);
+}
+
+.xbox .stick.right.pressed {
+  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/Analog-R-active.png);
+}
+
+.xbox .arrows {
+  position: absolute;
+  width: 232px;
+  top: 127px;
+  left: 258px;
+}
+
+.xbox .arrows .back,
+.xbox .arrows .start {
+  width: 49px;
+  height: 45px;
+  opacity: 1;
+}
+
+.xbox .arrows .back {
+  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/SELECT.png) no-repeat;
+}
+
+.xbox .arrows .start {
+  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/START.png) no-repeat;
+}
+
+.xbox .arrows .back.pressed {
+  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/SELECT-active.png);
+}
+
+.xbox .arrows .start.pressed {
+  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/START-active.png);
+}
+
+.xbox .abxy {
+  width: 161px;
+  top: 116px;
+  left: 486px;
+}
+
+.xbox .abxy .button {
+  width: 55px;
+  height: 55px;
+
+  transition: margin .1s ease-in-out;
+}
+
+.xbox .button.a {
+  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/A.png) no-repeat;
+}
+
+.xbox .button.b {
+  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/B.png) no-repeat;
+}
+
+.xbox .button.x {
+  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/X.png) no-repeat;
+}
+
+.xbox .button.y {
+  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/Y.png) no-repeat;
+}
+
+.xbox .button.a.pressed {
+  margin-top: 2px;
+  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/A-active.png);
+}
+
+.xbox .button.b.pressed {
+  margin-top: 2px;
+  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/B-active.png);
+}
+
+.xbox .button.x.pressed {
+  margin-top: 2px;
+  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/X-active.png);
+}
+
+.xbox .button.y.pressed {
+  margin-top: 2px;
+  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/Y-active.png);
+}
+
+.xbox .dpad {
+  --dpad-transform: translate3d(0, 0, 0) rotate3d(0, 0, 0, var(--d-pad-rotate-angle));
+  width: 128px;
+  height: 128px;
+  top: 260px;
+  left: 210px;
+
+  filter: drop-shadow(0 0 8px black);
+
+  transform: var(--dpad-transform);
+  -webkit-transform: var(--dpad-transform);
+   -moz-transform: var(--dpad-transform);
+   -o-transform: var(--dpad-transform); 
+
+  transition: transform .1s ease-in-out;
+
+  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/D-Pad.png) no-repeat;
+}
+
+/* rotate3d(x, y, z, a) */
+.xbox .dpad:has(.up.pressed) {
+  --dpad-transform: translate3d(0, calc( -1 * var(--d-pad-translate) ), -2px ) rotate3d(1, 0, 0, var(--d-pad-rotate-angle));
+}
+
+.xbox .dpad:has(.left.pressed) {
+  --dpad-transform: translate3d(calc( -1 * var(--d-pad-translate) ), 0, -2px ) rotate3d(0, -1, 0, var(--d-pad-rotate-angle));
+}
+
+.xbox .dpad:has(.down.pressed) {
+  --dpad-transform: translate3d(0, var(--d-pad-translate), -2px ) rotate3d(-1, 0, 0, var(--d-pad-rotate-angle));
+}
+
+.xbox .dpad:has(.right.pressed) {
+  --dpad-transform: translate3d(var(--d-pad-translate), 0, -2px ) rotate3d(0, 1, 0, var(--d-pad-rotate-angle));
+}
+
+.xbox .dpad:has(.up.pressed~.left.pressed) {
+  --dpad-transform: translate3d(calc( -1 * var(--d-pad-translate) ), calc( -1 * var(--d-pad-translate) ), -2px ) rotate3d(.875, -.875, 0, var(--d-pad-rotate-angle));
+}
+
+.xbox .dpad:has(.down.pressed~.left.pressed) {
+  --dpad-transform: translate3d(calc( -1 * var(--d-pad-translate) ), var(--d-pad-translate), -2px ) rotate3d(-.875, -.875, 0, var(--d-pad-rotate-angle));
+}
+
+.xbox .dpad:has(.down.pressed~.right.pressed) {
+  --dpad-transform: translate3d(var(--d-pad-translate), var(--d-pad-translate), -2px ) rotate3d(-.875, .875, 0, var(--d-pad-rotate-angle));
+}
+
+.xbox .dpad:has(.up.pressed~.right.pressed) {
+  --dpad-transform: translate3d(var(--d-pad-translate), calc( -1 * var(--d-pad-translate) ), -2px ) rotate3d(.875, .875, 0, var(--d-pad-rotate-angle));
+}
+
+.xbox .triggers {
+  width: 770px;
+  left: -10px;
+  top: 55px;
+}
+
+.xbox .trigger {
+  height: 95px;
+  
+}
+
+.xbox .bumpers {
+  top: 55px;
+}
