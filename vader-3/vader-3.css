@@ -16,7 +16,7 @@ body {
 }
 
 .controller.active {
-  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/Body-no-d-pad.png) no-repeat;
+  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-3/Body-no-d-pad.png) no-repeat;
   perspective: 2000px;
 }
 
@@ -27,11 +27,11 @@ body {
   top: 395px;
   left: 377px;
 
-  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/home.png) no-repeat;
+  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-3/home.png) no-repeat;
 }
 
 .xbox .meta.pressed {
-  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/home-active.png);
+  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/vader-3/home-active.png);
 }
 
 .xbox .sticks {
@@ -44,21 +44,21 @@ body {
 }
 
 .xbox .stick.left {
-  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/Analog-L.png) no-repeat;
+  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-3/Analog-L.png) no-repeat;
 }
 
 .xbox .stick.right {
-  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/Analog-R.png) no-repeat;
+  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-3/Analog-R.png) no-repeat;
   top: 121px;
   left: 290px;
 }
 
 .xbox .stick.left.pressed {
-  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/Analog-L-active.png);
+  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/vader-3/Analog-L-active.png);
 }
 
 .xbox .stick.right.pressed {
-  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/Analog-R-active.png);
+  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/vader-3/Analog-R-active.png);
 }
 
 .xbox .arrows {
@@ -76,19 +76,19 @@ body {
 }
 
 .xbox .arrows .back {
-  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/SELECT.png) no-repeat;
+  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-3/SELECT.png) no-repeat;
 }
 
 .xbox .arrows .start {
-  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/START.png) no-repeat;
+  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-3/START.png) no-repeat;
 }
 
 .xbox .arrows .back.pressed {
-  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/SELECT-active.png);
+  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/vader-3/SELECT-active.png);
 }
 
 .xbox .arrows .start.pressed {
-  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/START-active.png);
+  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/vader-3/START-active.png);
 }
 
 .xbox .abxy {
@@ -105,39 +105,39 @@ body {
 }
 
 .xbox .button.a {
-  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/A.png) no-repeat;
+  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-3/A.png) no-repeat;
 }
 
 .xbox .button.b {
-  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/B.png) no-repeat;
+  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-3/B.png) no-repeat;
 }
 
 .xbox .button.x {
-  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/X.png) no-repeat;
+  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-3/X.png) no-repeat;
 }
 
 .xbox .button.y {
-  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/Y.png) no-repeat;
+  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-3/Y.png) no-repeat;
 }
 
 .xbox .button.a.pressed {
   margin-top: 2px;
-  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/A-active.png);
+  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/vader-3/A-active.png);
 }
 
 .xbox .button.b.pressed {
   margin-top: 2px;
-  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/B-active.png);
+  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/vader-3/B-active.png);
 }
 
 .xbox .button.x.pressed {
   margin-top: 2px;
-  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/X-active.png);
+  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/vader-3/X-active.png);
 }
 
 .xbox .button.y.pressed {
   margin-top: 2px;
-  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/Y-active.png);
+  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/vader-3/Y-active.png);
 }
 
 .xbox .dpad {
