@@ -11,7 +11,7 @@
   display: none;
 }
 
-#gamepads:after {
+#gamepads:before {
   content: '';
   display: block;
   position: fixed;
@@ -19,6 +19,7 @@
   width: 100vw;
   height: 100vh;
   background: var(--key-color) !important;
+  z-index: -1;
 }
 
 .controller.active {
