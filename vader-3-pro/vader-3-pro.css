@@ -1,5 +1,5 @@
 :root{
-  --key-color: #d81cff;
+  --key-color: #12ff00;
 
   --d-pad-rotate-angle: 17deg;
 
@@ -11,7 +11,11 @@
   display: none;
 }
 
-body {
+#gamepads:after {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
   background: var(--key-color) !important;
 }
 
