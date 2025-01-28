@@ -93,36 +93,56 @@
 }
 
 .xbox .abxy {
-	width: 161px;
-	top: 116px;
-	left: 486px;
+	width: 150px;
+    top: 111px;
+    left: 485px;
 }
 
 .xbox .abxy .button {
-	width: 55px;
-	height: 55px;
+	width: 50px;
+	height: 50px;
 
 	transition: margin 0.1s ease-in-out;
 }
 
-.xbox .button.a.pressed {
+.xbox .button.a {
 	margin-top: 2px;
 	background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/A.png) no-repeat;
 }
 
-.xbox .button.b.pressed {
+.xbox .button.b {
 	margin-top: 2px;
 	background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/B.png) no-repeat;
 }
 
-.xbox .button.x.pressed {
+.xbox .button.x {
 	margin-top: 2px;
 	background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/X.png) no-repeat;
 }
 
-.xbox .button.y.pressed {
+.xbox .button.y {
 	margin-top: 2px;
 	background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/Y.png) no-repeat;
+}
+
+.xbox .button.a.pressed {
+	margin-top: 2px;
+	background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/A%20Active.png) no-repeat;
+}
+
+.xbox .button.b.pressed {
+	margin-top: 2px;
+	background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/B%20Active.png) no-repeat;
+}
+
+.xbox .button.x.pressed {
+	margin-top: 2px;
+	background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/X%20Active.png) no-repeat;
+}
+
+.xbox .button.y.pressed {
+	margin-top: 2px;
+	background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/Y%20Active.png) no-repeat;
 }
 
 .xbox .dpad {
