@@ -188,10 +188,6 @@
 .xbox .bumpers {
 	top: 55px;
 }
-.xbox .bumper.left {
+.xbox .bumper {
 	background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/LB.png) no-repeat;
-}
-
-.xbox .bumper.right {
-	background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/RB.png) no-repeat;
 }
