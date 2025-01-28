@@ -42,8 +42,10 @@
 }
 
 .xbox .sticks {
-	top: 158px;
-	left: 138px;
+    top: 138px;
+    left: 146px;
+    height: 87px;
+    width: 87px;
 }
 
 .xbox .stick {
@@ -56,8 +58,8 @@
 
 .xbox .stick.right {
 	background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/R%20Stick.png) no-repeat;
-	top: 121px;
-	left: 290px;
+    top: 113px;
+    left: 279px;
 }
 
 .xbox .stick.left.pressed {
@@ -186,7 +188,10 @@
 }
 
 .xbox .bumpers {
-	top: 55px;
+	top: 53px;
+    width: 512px;
+    height: 61px;
+    left: 120px;
 }
 .xbox .bumper {
 	background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/LB.png) no-repeat;
