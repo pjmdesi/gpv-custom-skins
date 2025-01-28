@@ -1,215 +1,197 @@
-:root{
-  --key-color: #12ff00;
+:root {
+	--key-color: #12ff00;
 
-  --d-pad-rotate-angle: 17deg;
+	--d-pad-rotate-angle: 17deg;
 
-  --d-pad-translate: 10px;
+	--d-pad-translate: 10px;
 }
 
 .xbox .quadrant,
-.xbox .dpad>span {
-  display: none;
+.xbox .dpad > span {
+	display: none;
 }
 
 #gamepads:before {
-  content: '';
-  display: block;
-  position: fixed;
-  inset: 0;
-  width: 100vw;
-  height: 100vh;
-  background: var(--key-color) !important;
-  z-index: -1;
+	content: '';
+	display: block;
+	position: fixed;
+	inset: 0;
+	width: 100vw;
+	height: 100vh;
+	background: var(--key-color) !important;
+	z-index: -1;
 }
 
 .controller.active {
-  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-3-pro/Body-no-d-pad.png) no-repeat;
-  perspective: 2000px;
+	background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/Body.png) no-repeat;
+	perspective: 2000px;
 }
 
 .xbox .meta {
-  position: absolute;
-  height: 16px;
-  width: 47px;
-  top: 395px;
-  left: 377px;
+	position: absolute;
+	height: 16px;
+	width: 47px;
+	top: 395px;
+	left: 377px;
 
-  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-3-pro/home.png) no-repeat;
+	background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/home.png) no-repeat;
 }
 
 .xbox .meta.pressed {
-  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/vader-3-pro/home-active.png);
+	background-image: url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/Home.png);
 }
 
 .xbox .sticks {
-  top: 158px;
-  left: 138px;
+	top: 158px;
+	left: 138px;
 }
 
 .xbox .stick {
-  filter: drop-shadow(0 0 8px black);
+	filter: drop-shadow(0 0 8px black);
 }
 
 .xbox .stick.left {
-  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-3-pro/Analog-L.png) no-repeat;
+	background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/L%20Stick.png) no-repeat;
 }
 
 .xbox .stick.right {
-  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-3-pro/Analog-R.png) no-repeat;
-  top: 121px;
-  left: 290px;
+	background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/R%20Stick.png) no-repeat;
+	top: 121px;
+	left: 290px;
 }
 
 .xbox .stick.left.pressed {
-  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/vader-3-pro/Analog-L-active.png);
+	background-image: url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/L3.png);
 }
 
 .xbox .stick.right.pressed {
-  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/vader-3-pro/Analog-R-active.png);
+	background-image: url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/R3.png);
 }
 
 .xbox .arrows {
-  position: absolute;
-  width: 232px;
-  top: 127px;
-  left: 258px;
+	position: absolute;
+	width: 232px;
+	top: 127px;
+	left: 258px;
 }
 
 .xbox .arrows .back,
 .xbox .arrows .start {
-  width: 49px;
-  height: 45px;
-  opacity: 1;
-}
-
-.xbox .arrows .back {
-  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-3-pro/SELECT.png) no-repeat;
-}
-
-.xbox .arrows .start {
-  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-3-pro/START.png) no-repeat;
+	width: 49px;
+	height: 45px;
+	opacity: 1;
 }
 
 .xbox .arrows .back.pressed {
-  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/vader-3-pro/SELECT-active.png);
+	background-image: url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/Select.png);
 }
 
 .xbox .arrows .start.pressed {
-  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/vader-3-pro/START-active.png);
+	background-image: url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/Start.png);
 }
 
 .xbox .abxy {
-  width: 161px;
-  top: 116px;
-  left: 486px;
+	width: 161px;
+	top: 116px;
+	left: 486px;
 }
 
 .xbox .abxy .button {
-  width: 55px;
-  height: 55px;
+	width: 55px;
+	height: 55px;
 
-  transition: margin .1s ease-in-out;
-}
-
-.xbox .button.a {
-  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-3-pro/A.png) no-repeat;
-}
-
-.xbox .button.b {
-  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-3-pro/B.png) no-repeat;
-}
-
-.xbox .button.x {
-  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-3-pro/X.png) no-repeat;
-}
-
-.xbox .button.y {
-  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-3-pro/Y.png) no-repeat;
+	transition: margin 0.1s ease-in-out;
 }
 
 .xbox .button.a.pressed {
-  margin-top: 2px;
-  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/vader-3-pro/A-active.png);
+	margin-top: 2px;
+	background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/A.png) no-repeat;
 }
 
 .xbox .button.b.pressed {
-  margin-top: 2px;
-  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/vader-3-pro/B-active.png);
+	margin-top: 2px;
+	background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/B.png) no-repeat;
 }
 
 .xbox .button.x.pressed {
-  margin-top: 2px;
-  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/vader-3-pro/X-active.png);
+	margin-top: 2px;
+	background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/X.png) no-repeat;
 }
 
 .xbox .button.y.pressed {
-  margin-top: 2px;
-  background-image: url(https://pjmdesi.github.io/gpv-custom-skins/vader-3-pro/Y-active.png);
+	margin-top: 2px;
+	background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/Y.png) no-repeat;
 }
 
 .xbox .dpad {
-  --dpad-transform: translate3d(0, 0, 0) rotate3d(0, 0, 0, var(--d-pad-rotate-angle));
-  width: 128px;
-  height: 128px;
-  top: 260px;
-  left: 210px;
+	--dpad-transform: translate3d(0, 0, 0) rotate3d(0, 0, 0, var(--d-pad-rotate-angle));
+	width: 128px;
+	height: 128px;
+	top: 260px;
+	left: 210px;
 
-  filter: drop-shadow(0 0 8px black);
+	filter: drop-shadow(0 0 8px black);
 
-  transform: var(--dpad-transform);
-  -webkit-transform: var(--dpad-transform);
-   -moz-transform: var(--dpad-transform);
-   -o-transform: var(--dpad-transform); 
+	transform: var(--dpad-transform);
+	-webkit-transform: var(--dpad-transform);
+	-moz-transform: var(--dpad-transform);
+	-o-transform: var(--dpad-transform);
 
-  transition: transform .1s ease-in-out;
+	transition: transform 0.1s ease-in-out;
 
-  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-3-pro/D-Pad.png) no-repeat;
+	background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/D-Pad.png) no-repeat;
 }
 
 /* rotate3d(x, y, z, a) */
 .xbox .dpad:has(.up.pressed) {
-  --dpad-transform: translate3d(0, calc( -1 * var(--d-pad-translate) ), -2px ) rotate3d(1, 0, 0, var(--d-pad-rotate-angle));
+	--dpad-transform: translate3d(0, calc(-1 * var(--d-pad-translate)), -2px) rotate3d(1, 0, 0, var(--d-pad-rotate-angle));
 }
 
 .xbox .dpad:has(.left.pressed) {
-  --dpad-transform: translate3d(calc( -1 * var(--d-pad-translate) ), 0, -2px ) rotate3d(0, -1, 0, var(--d-pad-rotate-angle));
+	--dpad-transform: translate3d(calc(-1 * var(--d-pad-translate)), 0, -2px) rotate3d(0, -1, 0, var(--d-pad-rotate-angle));
 }
 
 .xbox .dpad:has(.down.pressed) {
-  --dpad-transform: translate3d(0, var(--d-pad-translate), -2px ) rotate3d(-1, 0, 0, var(--d-pad-rotate-angle));
+	--dpad-transform: translate3d(0, var(--d-pad-translate), -2px) rotate3d(-1, 0, 0, var(--d-pad-rotate-angle));
 }
 
 .xbox .dpad:has(.right.pressed) {
-  --dpad-transform: translate3d(var(--d-pad-translate), 0, -2px ) rotate3d(0, 1, 0, var(--d-pad-rotate-angle));
+	--dpad-transform: translate3d(var(--d-pad-translate), 0, -2px) rotate3d(0, 1, 0, var(--d-pad-rotate-angle));
 }
 
-.xbox .dpad:has(.up.pressed~.left.pressed) {
-  --dpad-transform: translate3d(calc( -1 * var(--d-pad-translate) ), calc( -1 * var(--d-pad-translate) ), -2px ) rotate3d(.875, -.875, 0, var(--d-pad-rotate-angle));
+.xbox .dpad:has(.up.pressed ~ .left.pressed) {
+	--dpad-transform: translate3d(calc(-1 * var(--d-pad-translate)), calc(-1 * var(--d-pad-translate)), -2px) rotate3d(0.875, -0.875, 0, var(--d-pad-rotate-angle));
 }
 
-.xbox .dpad:has(.down.pressed~.left.pressed) {
-  --dpad-transform: translate3d(calc( -1 * var(--d-pad-translate) ), var(--d-pad-translate), -2px ) rotate3d(-.875, -.875, 0, var(--d-pad-rotate-angle));
+.xbox .dpad:has(.down.pressed ~ .left.pressed) {
+	--dpad-transform: translate3d(calc(-1 * var(--d-pad-translate)), var(--d-pad-translate), -2px) rotate3d(-0.875, -0.875, 0, var(--d-pad-rotate-angle));
 }
 
-.xbox .dpad:has(.down.pressed~.right.pressed) {
-  --dpad-transform: translate3d(var(--d-pad-translate), var(--d-pad-translate), -2px ) rotate3d(-.875, .875, 0, var(--d-pad-rotate-angle));
+.xbox .dpad:has(.down.pressed ~ .right.pressed) {
+	--dpad-transform: translate3d(var(--d-pad-translate), var(--d-pad-translate), -2px) rotate3d(-0.875, 0.875, 0, var(--d-pad-rotate-angle));
 }
 
-.xbox .dpad:has(.up.pressed~.right.pressed) {
-  --dpad-transform: translate3d(var(--d-pad-translate), calc( -1 * var(--d-pad-translate) ), -2px ) rotate3d(.875, .875, 0, var(--d-pad-rotate-angle));
+.xbox .dpad:has(.up.pressed ~ .right.pressed) {
+	--dpad-transform: translate3d(var(--d-pad-translate), calc(-1 * var(--d-pad-translate)), -2px) rotate3d(0.875, 0.875, 0, var(--d-pad-rotate-angle));
 }
 
 .xbox .triggers {
-  width: 770px;
-  left: -10px;
-  top: 55px;
+	width: 770px;
+	left: -10px;
+	top: 55px;
 }
 
 .xbox .trigger {
-  height: 95px;
-  
+	height: 95px;
 }
 
 .xbox .bumpers {
-  top: 55px;
+	top: 55px;
+}
+.xbox .bumper.left {
+	background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/LB.png) no-repeat;
+}
+
+.xbox .bumper.right {
+	background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/RB.png) no-repeat;
 }
