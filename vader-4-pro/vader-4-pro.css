@@ -6,10 +6,13 @@
 	--d-pad-translate: 10px;
 }
 
-.xbox .quadrant,
-.xbox .dpad > span {
+.xbox .quadrant {
 	display: none;
 }
+
+/* .xbox .dpad > span {
+	display: none;
+} */
 
 #gamepads:before {
 	content: '';
@@ -131,7 +134,7 @@
 
 .xbox .button.y {
     left: 53px;
-    top: 6px;
+    top: 5px;
 	background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/Y.png) no-repeat;
 }
 
@@ -157,10 +160,10 @@
 
 .xbox .dpad {
 	--dpad-transform: translate3d(0, 0, 0) rotate3d(0, 0, 0, var(--d-pad-rotate-angle));
-	width: 128px;
-	height: 128px;
-	top: 260px;
-	left: 210px;
+	width: 123px;
+    height: 123px;
+    top: 241px;
+    left: 219px;
 
 	filter: drop-shadow(0 0 8px black);
 
@@ -175,7 +178,7 @@
 }
 
 /* rotate3d(x, y, z, a) */
-.xbox .dpad:has(.up.pressed) {
+/* .xbox .dpad:has(.up.pressed) {
 	--dpad-transform: translate3d(0, calc(-1 * var(--d-pad-translate)), -2px) rotate3d(1, 0, 0, var(--d-pad-rotate-angle));
 }
 
@@ -205,7 +208,7 @@
 
 .xbox .dpad:has(.up.pressed ~ .right.pressed) {
 	--dpad-transform: translate3d(var(--d-pad-translate), calc(-1 * var(--d-pad-translate)), -2px) rotate3d(0.875, 0.875, 0, var(--d-pad-rotate-angle));
-}
+} */
 
 .xbox .triggers {
 	width: 770px;
