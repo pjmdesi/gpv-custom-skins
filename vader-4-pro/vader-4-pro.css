@@ -72,9 +72,9 @@
 
 .xbox .arrows {
 	position: absolute;
-	width: 232px;
-	top: 127px;
-	left: 258px;
+	width: 223px;
+    top: 118px;
+    left: 265px;
 }
 
 .xbox .arrows .back,
@@ -85,11 +85,11 @@
 }
 
 .xbox .arrows .back {
-	background-image: url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/Select.png);
+	background: url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/Select.png) no-repeat;
 }
 
 .xbox .arrows .start {
-	background-image: url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/Start.png);
+	background: url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/Start.png) no-repeat;
 }
 
 .xbox .arrows .back.pressed {
