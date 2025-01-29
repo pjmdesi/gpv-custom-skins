@@ -32,10 +32,10 @@
 
 .xbox .meta {
 	position: absolute;
-	height: 16px;
-	width: 47px;
-	top: 395px;
-	left: 377px;
+	height: 19px;
+    width: 42px;
+    top: 374px;
+    left: 380px;
 
 	background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/Home.png) no-repeat;
 }
