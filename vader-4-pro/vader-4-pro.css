@@ -233,6 +233,7 @@
 
 .xbox .trigger {
 	height: 95px;
+    filter: sepia(1) brightness(.5) hue-rotate(275) saturate(100);
 }
 
 .xbox .bumpers {
