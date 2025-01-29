@@ -210,6 +210,10 @@
 	--dpad-transform: translate3d(var(--d-pad-translate), calc(-1 * var(--d-pad-translate)), -2px) rotate3d(0.875, 0.875, 0, var(--d-pad-rotate-angle));
 } */
 
+.xbox .face {
+    filter: sepia(1) brightness(.5) hue-rotate(275) saturate(100);
+}
+
 .xbox .face.down,
 .xbox .face.up {
     left: 45px;
