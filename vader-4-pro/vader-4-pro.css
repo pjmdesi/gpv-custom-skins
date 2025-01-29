@@ -84,12 +84,20 @@
 	opacity: 1;
 }
 
-.xbox .arrows .back.pressed {
+.xbox .arrows .back {
 	background-image: url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/Select.png);
 }
 
-.xbox .arrows .start.pressed {
+.xbox .arrows .start {
 	background-image: url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/Start.png);
+}
+
+.xbox .arrows .back.pressed {
+	background-image: url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/Select%20Active.png);
+}
+
+.xbox .arrows .start.pressed {
+	background-image: url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/Start%20Active.png);
 }
 
 .xbox .abxy {
