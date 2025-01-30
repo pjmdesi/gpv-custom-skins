@@ -224,6 +224,22 @@
     top: 43px;
 }
 
+.xbox .face.up {
+    background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/D-U.png) no-repeat;
+}
+
+.xbox .face.down {
+    background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/D-D.png) no-repeat;
+}
+
+.xbox .face.left {
+    background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/D-L.png) no-repeat;
+}
+
+.xbox .face.right {
+    background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/D-R.png) no-repeat;
+}
+
 
 .xbox .triggers {
 	width: 770px;
