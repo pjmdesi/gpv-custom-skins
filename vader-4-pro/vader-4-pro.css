@@ -1,9 +1,9 @@
 :root {
 	--key-color: #12ff0000;
 
-	--d-pad-rotate-angle: 17deg;
+	--d-pad-rotate-angle: 15deg;
 
-	--d-pad-translate: 10px;
+	--d-pad-translate: 8px;
 }
 
 .xbox .quadrant {
@@ -210,11 +210,12 @@
 	--dpad-transform: translate3d(var(--d-pad-translate), calc(-1 * var(--d-pad-translate)), -2px) rotate3d(0.875, 0.875, 0, var(--d-pad-rotate-angle));
 }
 
-.xbox .face {
+/* Color change for default GPV dpad indicators */
+/* .xbox .face {
     filter: sepia(1) brightness(.5) hue-rotate(290deg) saturate(100);
-}
+} */
 
-.xbox .face.down,
+/* .xbox .face.down,
 .xbox .face.up {
     left: 45px;
 }
@@ -222,9 +223,12 @@
 .xbox .face.right,
 .xbox .face.left {
     top: 43px;
-}
+} */
 
 .xbox .face.up {
+    left: 41px;
+    height: 42px;
+    width: 42px;
     background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/D-U.png) no-repeat;
 }
 
