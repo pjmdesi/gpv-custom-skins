@@ -45,13 +45,13 @@
 }
 
 .xbox .sticks {
-    top: 138px;
-    left: 146px;
+    top: 139px;
+    left: 145px;
 }
 
 .xbox .stick {
-    height: 87px;
-    width: 87px;
+    height: 90px;
+    width: 90px;
 	filter: drop-shadow(0 0 8px black);
 }
 
