@@ -178,7 +178,7 @@
 }
 
 /* rotate3d(x, y, z, a) */
-/* .xbox .dpad:has(.up.pressed) {
+.xbox .dpad:has(.up.pressed) {
 	--dpad-transform: translate3d(0, calc(-1 * var(--d-pad-translate)), -2px) rotate3d(1, 0, 0, var(--d-pad-rotate-angle));
 }
 
@@ -208,7 +208,7 @@
 
 .xbox .dpad:has(.up.pressed ~ .right.pressed) {
 	--dpad-transform: translate3d(var(--d-pad-translate), calc(-1 * var(--d-pad-translate)), -2px) rotate3d(0.875, 0.875, 0, var(--d-pad-rotate-angle));
-} */
+}
 
 .xbox .face {
     filter: sepia(1) brightness(.5) hue-rotate(290deg) saturate(100);
