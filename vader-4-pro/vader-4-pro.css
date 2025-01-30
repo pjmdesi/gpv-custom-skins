@@ -233,14 +233,23 @@
 }
 
 .xbox .face.down {
+    left: 41px;
+    height: 42px;
+    width: 42px;
     background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/D-D.png) no-repeat;
 }
 
 .xbox .face.left {
+    width: 43px;
+    height: 42px;
+    top: 39px;
     background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/D-L.png) no-repeat;
 }
 
 .xbox .face.right {
+    width: 43px;
+    height: 42px;
+    top: 39px;
     background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-4-pro/D-R.png) no-repeat;
 }
 
