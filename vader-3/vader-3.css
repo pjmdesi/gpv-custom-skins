@@ -109,20 +109,12 @@ body {
   transition: margin .1s ease-in-out;
 }
 
-.xbox .button.a {
-  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-3/A.png) no-repeat;
-}
-
-.xbox .button.b {
-  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-3/B.png) no-repeat;
-}
-
-.xbox .button.x {
-  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-3/X.png) no-repeat;
-}
-
+.xbox .button.a,
+.xbox .button.b,
+.xbox .button.x,
 .xbox .button.y {
-  background: center / 100% auto url(https://pjmdesi.github.io/gpv-custom-skins/vader-3/Y.png) no-repeat;
+  background: center / 100% auto no-repeat;
+  background-image: none;
 }
 
 .xbox .button.a.pressed {
@@ -157,7 +149,7 @@ body {
   transform: var(--dpad-transform);
   -webkit-transform: var(--dpad-transform);
    -moz-transform: var(--dpad-transform);
-   -o-transform: var(--dpad-transform); 
+   -o-transform: var(--dpad-transform);
 
   transition: transform .1s ease-in-out;
 
@@ -205,7 +197,7 @@ body {
 
 .xbox .trigger {
   height: 95px;
-  
+
 }
 
 .xbox .bumpers {
